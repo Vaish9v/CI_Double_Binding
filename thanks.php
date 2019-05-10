@@ -20,7 +20,7 @@ if (array_key_exists("id", $_SESSION)) {
     $result=$_POST['optradio'];
     $remark=$_POST['remarks'];
     $query = "INSERT INTO decrypt (id,sample_id,batch,place,type,agency,result,remarks) values ('$id','$sample_id','$batch','$place','$type','$agency','$result','$remark')";
-
+bbm
     if (mysqli_query($link, $query)) {
     echo "New record created successfully";
 } else {
